@@ -1,0 +1,23 @@
+{
+  "name": "appcust",
+  "version": "1.0.0",
+  "description": "CLI application with RESTful API",
+  "main": "app.js",
+  "preferGlobal": true,
+  "bin": "./app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Paul Lungu",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "commander": "^2.20.0",
+    "configstore": "^4.0.0",
+    "inquirer": "^6.3.1",
+    "ora": "^3.4.0"
+  }
+}
