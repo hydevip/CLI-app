@@ -37,6 +37,7 @@ if (!token) {
     .action((name,email,phone)=> addCustomer(name,email,phone));
 
   
+    
   program
     .command('list')
     .alias('l')
