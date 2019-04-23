@@ -7,7 +7,7 @@ const pkg = require('./package.json');
 // Create a Configstore instance
 const config = new Configstore(pkg.name);
 
-config.clear();
+//config.clear();
 //config.set('token.username', '' );
 //config.set('token.token', '' );
 console.log(config.all);
