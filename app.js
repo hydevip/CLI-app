@@ -7,7 +7,7 @@ const program = require('commander');
 const { getToken } = require('./lib/config');
 
 const { registerUser, loginUser } = require('./lib/user');
-const { addCustomer } =require('./lib/customer');
+const { addCustomer, listCustomer } =require('./lib/customer');
 
 
 
@@ -42,7 +42,7 @@ if (!token) {
     .command('list')
     .alias('l')
     .description('List all customers.')
-    .action();
+    .action(()=>listCustomer());
 
   program
     .command('search <name>')
